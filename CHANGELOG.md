@@ -46,6 +46,7 @@
 - [vsx-registry] adjusted the width of the search input [#7984](https://github.com/eclipse-theia/theia/pull/7984)
 - [vsx-registry] included 'extensions-view' in the default layout [#7944](https://github.com/eclipse-theia/theia/pull/7944)
 - [workspace] added logic preventing arbitrary files from being opened as a workspace [#7922](https://github.com/eclipse-theia/theia/pull/7922)
+- [electron] Electron applications can now be configured/extended through inversify. Added new `electronMain` theia extension points to provide inversify container modules. [#8076](https://github.com/eclipse-theia/theia/pull/8076)
 
 Breaking Changes:
 
